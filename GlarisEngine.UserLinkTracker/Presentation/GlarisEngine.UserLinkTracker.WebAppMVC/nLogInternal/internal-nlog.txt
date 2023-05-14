@@ -1,0 +1,148 @@
+2023-05-13 22:06:57.3802 Info Message Template Auto Format enabled
+2023-05-13 22:06:57.3802 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-13 22:06:57.4428 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-13 22:06:57.4428 Info Registered target NLog.Targets.Wrappers.BufferingTargetWrapper(Name=dbAsync)
+2023-05-13 22:06:57.4428 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=LogFileAsync)
+2023-05-13 22:06:57.4611 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:06:57.6616 Error Exception in layout renderer initialization. Exception: NLog.NLogConfigurationException: Required parameter 'Item' on 'Layout Renderer: ${aspnet-httpcontext-item}' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(Object o)
+   at NLog.LayoutRenderers.LayoutRenderer.Initialize()
+2023-05-13 22:06:58.1200 Info Configuration initialized.
+2023-05-13 22:06:58.1497 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.4.1703. Product version: 5.1.4+589ee8b1398665c1810660c5434d0226b0ccf09f. GlobalAssemblyCache: False
+2023-05-13 22:06:58.1497 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:07:42.0187 Info Message Template Auto Format enabled
+2023-05-13 22:07:42.0187 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-13 22:07:42.0615 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-13 22:07:42.0615 Info Registered target NLog.Targets.Wrappers.BufferingTargetWrapper(Name=dbAsync)
+2023-05-13 22:07:42.0615 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=LogFileAsync)
+2023-05-13 22:07:42.0785 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:07:42.0916 Error Exception in layout renderer initialization. Exception: NLog.NLogConfigurationException: Required parameter 'Item' on 'Layout Renderer: ${aspnet-httpcontext-item}' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(Object o)
+   at NLog.LayoutRenderers.LayoutRenderer.Initialize()
+2023-05-13 22:07:42.1289 Info Configuration initialized.
+2023-05-13 22:07:42.1289 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.4.1703. Product version: 5.1.4+589ee8b1398665c1810660c5434d0226b0ccf09f. GlobalAssemblyCache: False
+2023-05-13 22:07:42.1289 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:14:00.8882 Info Message Template Auto Format enabled
+2023-05-13 22:14:00.8965 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-13 22:14:00.9363 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-13 22:14:00.9363 Info Registered target NLog.Targets.Wrappers.BufferingTargetWrapper(Name=dbAsync)
+2023-05-13 22:14:00.9363 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=LogFileAsync)
+2023-05-13 22:14:00.9530 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:14:00.9696 Error Exception in layout renderer initialization. Exception: NLog.NLogConfigurationException: Required parameter 'Item' on 'Layout Renderer: ${aspnet-httpcontext-item}' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(Object o)
+   at NLog.LayoutRenderers.LayoutRenderer.Initialize()
+2023-05-13 22:14:01.0110 Info Configuration initialized.
+2023-05-13 22:14:01.0242 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.4.1703. Product version: 5.1.4+589ee8b1398665c1810660c5434d0226b0ccf09f. GlobalAssemblyCache: False
+2023-05-13 22:14:01.0242 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:17:03.8367 Info Message Template Auto Format enabled
+2023-05-13 22:17:03.8634 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-13 22:17:03.9378 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-13 22:17:03.9445 Info Registered target NLog.Targets.Wrappers.BufferingTargetWrapper(Name=dbAsync)
+2023-05-13 22:17:03.9445 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=LogFileAsync)
+2023-05-13 22:17:03.9809 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:17:04.0118 Error Exception in layout renderer initialization. Exception: NLog.NLogConfigurationException: Required parameter 'Item' on 'Layout Renderer: ${aspnet-httpcontext-item}' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(Object o)
+   at NLog.LayoutRenderers.LayoutRenderer.Initialize()
+2023-05-13 22:17:04.0844 Info Configuration initialized.
+2023-05-13 22:17:04.0982 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.4.1703. Product version: 5.1.4+589ee8b1398665c1810660c5434d0226b0ccf09f. GlobalAssemblyCache: False
+2023-05-13 22:17:04.0982 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:24:59.1441 Info Message Template Auto Format enabled
+2023-05-13 22:24:59.1441 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-13 22:24:59.1990 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-13 22:24:59.1990 Info Registered target NLog.Targets.Wrappers.BufferingTargetWrapper(Name=dbAsync)
+2023-05-13 22:24:59.1990 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=LogFileAsync)
+2023-05-13 22:24:59.2174 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:24:59.2359 Error Exception in layout renderer initialization. Exception: NLog.NLogConfigurationException: Required parameter 'Item' on 'Layout Renderer: ${aspnet-httpcontext-item}' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(Object o)
+   at NLog.LayoutRenderers.LayoutRenderer.Initialize()
+2023-05-13 22:24:59.2856 Info Configuration initialized.
+2023-05-13 22:24:59.2996 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.4.1703. Product version: 5.1.4+589ee8b1398665c1810660c5434d0226b0ccf09f. GlobalAssemblyCache: False
+2023-05-13 22:24:59.2996 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:32:57.0933 Info Message Template Auto Format enabled
+2023-05-13 22:32:57.1003 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-13 22:32:57.1355 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-13 22:32:57.1355 Info Registered target NLog.Targets.Wrappers.BufferingTargetWrapper(Name=dbAsync)
+2023-05-13 22:32:57.1355 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=LogFileAsync)
+2023-05-13 22:32:57.1541 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:32:57.1726 Error Exception in layout renderer initialization. Exception: NLog.NLogConfigurationException: Required parameter 'Item' on 'Layout Renderer: ${aspnet-httpcontext-item}' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(Object o)
+   at NLog.LayoutRenderers.LayoutRenderer.Initialize()
+2023-05-13 22:32:57.2142 Info Configuration initialized.
+2023-05-13 22:32:57.2274 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.4.1703. Product version: 5.1.4+589ee8b1398665c1810660c5434d0226b0ccf09f. GlobalAssemblyCache: False
+2023-05-13 22:32:57.2274 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:33:30.8367 Info Message Template Auto Format enabled
+2023-05-13 22:33:30.8367 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-13 22:33:30.8989 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-13 22:33:30.8989 Info Registered target NLog.Targets.Wrappers.BufferingTargetWrapper(Name=dbAsync)
+2023-05-13 22:33:30.8989 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=LogFileAsync)
+2023-05-13 22:33:30.9218 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:33:30.9487 Error Exception in layout renderer initialization. Exception: NLog.NLogConfigurationException: Required parameter 'Item' on 'Layout Renderer: ${aspnet-httpcontext-item}' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(Object o)
+   at NLog.LayoutRenderers.LayoutRenderer.Initialize()
+2023-05-13 22:33:31.0037 Info Configuration initialized.
+2023-05-13 22:33:31.0193 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.4.1703. Product version: 5.1.4+589ee8b1398665c1810660c5434d0226b0ccf09f. GlobalAssemblyCache: False
+2023-05-13 22:33:31.0193 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:33:59.9433 Info Message Template Auto Format enabled
+2023-05-13 22:33:59.9433 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-13 22:33:59.9887 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-13 22:33:59.9887 Info Registered target NLog.Targets.Wrappers.BufferingTargetWrapper(Name=dbAsync)
+2023-05-13 22:33:59.9887 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=LogFileAsync)
+2023-05-13 22:34:00.0033 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:34:00.0191 Error Exception in layout renderer initialization. Exception: NLog.NLogConfigurationException: Required parameter 'Item' on 'Layout Renderer: ${aspnet-httpcontext-item}' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(Object o)
+   at NLog.LayoutRenderers.LayoutRenderer.Initialize()
+2023-05-13 22:34:00.1010 Info Configuration initialized.
+2023-05-13 22:34:00.1219 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.4.1703. Product version: 5.1.4+589ee8b1398665c1810660c5434d0226b0ccf09f. GlobalAssemblyCache: False
+2023-05-13 22:34:00.1219 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:34:55.1273 Info Message Template Auto Format enabled
+2023-05-13 22:34:55.1353 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-13 22:34:55.1849 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-13 22:34:55.1849 Info Registered target NLog.Targets.Wrappers.BufferingTargetWrapper(Name=dbAsync)
+2023-05-13 22:34:55.1849 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=LogFileAsync)
+2023-05-13 22:34:55.2066 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:34:55.2307 Error Exception in layout renderer initialization. Exception: NLog.NLogConfigurationException: Required parameter 'Item' on 'Layout Renderer: ${aspnet-httpcontext-item}' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(Object o)
+   at NLog.LayoutRenderers.LayoutRenderer.Initialize()
+2023-05-13 22:34:55.3433 Info Configuration initialized.
+2023-05-13 22:34:55.3590 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.4.1703. Product version: 5.1.4+589ee8b1398665c1810660c5434d0226b0ccf09f. GlobalAssemblyCache: False
+2023-05-13 22:34:55.3590 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:36:43.2247 Info Message Template Auto Format enabled
+2023-05-13 22:36:43.2247 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-13 22:36:43.2791 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-13 22:36:43.2791 Info Registered target NLog.Targets.Wrappers.BufferingTargetWrapper(Name=dbAsync)
+2023-05-13 22:36:43.2791 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=LogFileAsync)
+2023-05-13 22:36:43.3008 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:36:43.3220 Error Exception in layout renderer initialization. Exception: NLog.NLogConfigurationException: Required parameter 'Item' on 'Layout Renderer: ${aspnet-httpcontext-item}' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(Object o)
+   at NLog.LayoutRenderers.LayoutRenderer.Initialize()
+2023-05-13 22:36:44.0184 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:37:08.2362 Info Message Template Auto Format enabled
+2023-05-13 22:37:08.2463 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-13 22:37:08.3148 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-13 22:37:08.3160 Info Registered target NLog.Targets.Wrappers.BufferingTargetWrapper(Name=dbAsync)
+2023-05-13 22:37:08.3160 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=LogFileAsync)
+2023-05-13 22:37:08.3567 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:37:08.3823 Error Exception in layout renderer initialization. Exception: NLog.NLogConfigurationException: Required parameter 'Item' on 'Layout Renderer: ${aspnet-httpcontext-item}' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(Object o)
+   at NLog.LayoutRenderers.LayoutRenderer.Initialize()
+2023-05-13 22:37:09.0401 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:38:13.7381 Info Message Template Auto Format enabled
+2023-05-13 22:38:13.7540 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-13 22:38:13.8291 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-13 22:38:13.8291 Info Registered target NLog.Targets.Wrappers.BufferingTargetWrapper(Name=dbAsync)
+2023-05-13 22:38:13.8313 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=LogFileAsync)
+2023-05-13 22:38:13.8568 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:38:13.8813 Error Exception in layout renderer initialization. Exception: NLog.NLogConfigurationException: Required parameter 'Item' on 'Layout Renderer: ${aspnet-httpcontext-item}' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(Object o)
+   at NLog.LayoutRenderers.LayoutRenderer.Initialize()
+2023-05-13 22:38:14.4810 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:41:36.3663 Info Message Template Auto Format enabled
+2023-05-13 22:41:36.3663 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-13 22:41:36.4346 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-13 22:41:36.4346 Info Registered target NLog.Targets.Wrappers.BufferingTargetWrapper(Name=dbAsync)
+2023-05-13 22:41:36.4346 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=LogFileAsync)
+2023-05-13 22:41:36.4733 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config
+2023-05-13 22:41:36.4996 Error Exception in layout renderer initialization. Exception: NLog.NLogConfigurationException: Required parameter 'Item' on 'Layout Renderer: ${aspnet-httpcontext-item}' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(Object o)
+   at NLog.LayoutRenderers.LayoutRenderer.Initialize()
+2023-05-13 22:41:37.2066 Info Validating config: TargetNames=LogFileAsync, ConfigItems=43, FilePath=C:\Users\vijir\source\repos\GlarisEngine.UserLinkTracker\GlarisEngine.UserLinkTracker\Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\bin\Debug\net7.0\NLog.config

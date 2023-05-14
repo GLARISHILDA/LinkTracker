@@ -1,0 +1,41 @@
+﻿@model GlarisEngine.UserLinkTracker.WebAppMVC.Models.Authentication.LoginUserViewModel
+
+<form class="pt-3" id="formLoginUser"
+      asp-controller="Authentication" asp-action="LoginUser"
+      method="post" data-ajax="true"    
+>
+    <div id="ajaxLoginUserResult">
+
+        <div class="mb-3">
+            <label class="form-label" for="card-email">
+                Email address
+            </label>
+            <input type="email" asp-for="EmailAddress" autocomplete="on"
+                   class="form-control" id="txtLoginUserEmailAddress"
+                   placeholder="Enter your email address">
+
+            <span asp-validation-for="EmailAddress" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <div class="d-flex justify-content-between">
+                <label class="form-label" for="card-password">Password</label>
+                @*<a class="fs--1" href="@string.Format(_appSetting.AppURL + "ForgetPassword")"
+                   title="Forget Password" id="linkForgetPassword">
+                    Forgot Password?
+                </a>*@
+            </div>
+            <input type="password" asp-for="Password" autocomplete="on"
+                   class="form-control" id="txtPassword"
+                   placeholder="Enter your password">
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>    
+               
+
+        <div class="mb-3">
+            <button class="btn btn-primary w-100 mt-3" type="submit" id="btnSubmitLoginUser">
+                Login User
+            </button>
+
+        </div>
+    </div>
+</form>

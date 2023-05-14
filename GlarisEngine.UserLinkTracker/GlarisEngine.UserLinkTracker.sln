@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{DDC77493-4F12-4BD4-BC2D-0ACB874D560E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{A5B64245-94DC-43AF-A41D-B86F1EEBE4E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{BF04884F-A2EA-4C1D-A742-751489F1C2F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{B82D2888-D7ED-47C0-997A-48A60977171C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{EFAA6F33-E550-4735-B048-0E9FCFA572CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlarisEngine.UserLinkTracker.Domain", "Core\GlarisEngine.UserLinkTracker.Domain\GlarisEngine.UserLinkTracker.Domain.csproj", "{A49334A3-AE94-46D3-A4A0-D225A2E48FEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlarisEngine.UserLinkTracker.Infrastructure", "Core\GlarisEngine.UserLinkTracker.Infrastructure\GlarisEngine.UserLinkTracker.Infrastructure.csproj", "{C1C15684-6B91-41DB-84A9-74521702AAFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlarisEngine.UserLinkTracker.RepositoryInterface", "Repository\GlarisEngine.UserLinkTracker.RepositoryInterface\GlarisEngine.UserLinkTracker.RepositoryInterface.csproj", "{76412384-F448-485B-84C7-50A1FB2D1E82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlarisEngine.UserLinkTracker.ServiceConcrete", "Service\GlarisEngine.UserLinkTracker.ServiceConcrete\GlarisEngine.UserLinkTracker.ServiceConcrete.csproj", "{4AEBBBA9-181E-40D2-9EA0-902BBF98B2D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlarisEngine.UserLinkTracker.ServiceInterface", "Service\GlarisEngine.UserLinkTracker.ServiceInterface\GlarisEngine.UserLinkTracker.ServiceInterface.csproj", "{241113BA-D314-46AB-A11E-F1ADB4214864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlarisEngine.UserLinkTracker.WebAppMVC", "Presentation\GlarisEngine.UserLinkTracker.WebAppMVC\GlarisEngine.UserLinkTracker.WebAppMVC.csproj", "{3B902512-DE27-4808-BB26-0BE8EDC48108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlarisEngine.UserLinkTracker.WinService", "Presentation\GlarisEngine.UserLinkTracker.WinService\GlarisEngine.UserLinkTracker.WinService.csproj", "{63085C2F-8861-4149-9DB7-2D1EE9951FD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A49334A3-AE94-46D3-A4A0-D225A2E48FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49334A3-AE94-46D3-A4A0-D225A2E48FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49334A3-AE94-46D3-A4A0-D225A2E48FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49334A3-AE94-46D3-A4A0-D225A2E48FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C15684-6B91-41DB-84A9-74521702AAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C15684-6B91-41DB-84A9-74521702AAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C15684-6B91-41DB-84A9-74521702AAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C15684-6B91-41DB-84A9-74521702AAFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76412384-F448-485B-84C7-50A1FB2D1E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76412384-F448-485B-84C7-50A1FB2D1E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76412384-F448-485B-84C7-50A1FB2D1E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76412384-F448-485B-84C7-50A1FB2D1E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AEBBBA9-181E-40D2-9EA0-902BBF98B2D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AEBBBA9-181E-40D2-9EA0-902BBF98B2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AEBBBA9-181E-40D2-9EA0-902BBF98B2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AEBBBA9-181E-40D2-9EA0-902BBF98B2D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{241113BA-D314-46AB-A11E-F1ADB4214864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241113BA-D314-46AB-A11E-F1ADB4214864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241113BA-D314-46AB-A11E-F1ADB4214864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241113BA-D314-46AB-A11E-F1ADB4214864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B902512-DE27-4808-BB26-0BE8EDC48108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B902512-DE27-4808-BB26-0BE8EDC48108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B902512-DE27-4808-BB26-0BE8EDC48108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B902512-DE27-4808-BB26-0BE8EDC48108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63085C2F-8861-4149-9DB7-2D1EE9951FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63085C2F-8861-4149-9DB7-2D1EE9951FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63085C2F-8861-4149-9DB7-2D1EE9951FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63085C2F-8861-4149-9DB7-2D1EE9951FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A49334A3-AE94-46D3-A4A0-D225A2E48FEA} = {DDC77493-4F12-4BD4-BC2D-0ACB874D560E}
+		{C1C15684-6B91-41DB-84A9-74521702AAFC} = {DDC77493-4F12-4BD4-BC2D-0ACB874D560E}
+		{76412384-F448-485B-84C7-50A1FB2D1E82} = {BF04884F-A2EA-4C1D-A742-751489F1C2F2}
+		{4AEBBBA9-181E-40D2-9EA0-902BBF98B2D5} = {A5B64245-94DC-43AF-A41D-B86F1EEBE4E3}
+		{241113BA-D314-46AB-A11E-F1ADB4214864} = {A5B64245-94DC-43AF-A41D-B86F1EEBE4E3}
+		{3B902512-DE27-4808-BB26-0BE8EDC48108} = {B82D2888-D7ED-47C0-997A-48A60977171C}
+		{63085C2F-8861-4149-9DB7-2D1EE9951FD4} = {B82D2888-D7ED-47C0-997A-48A60977171C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {648137AB-8283-4C3A-A529-979FE8F0244C}
+	EndGlobalSection
+EndGlobal

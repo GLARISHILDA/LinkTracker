@@ -1,0 +1,80 @@
+﻿@model GlarisEngine.UserLinkTracker.WebAppMVC.Models.Authentication.RegisterUserViewModel
+
+<form class="pt-3" id="formRegisterUser"
+      asp-controller="Authentication" asp-action="RegisterUser"
+      method="post" data-ajax="true"    
+>
+    <div id="ajaxRegisterUserResult">
+
+        <div class="mb-3">
+            <label class="form-label" for="txtRegisterUserName">Name</label>
+            <input type="text" asp-for="Name" autocomplete="username"
+                   class="form-control" id="txtRegisterUserName"
+                   placeholder="Enter your name">
+            <span asp-validation-for="Name" class="text-danger fs--1"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label" for="card-email">
+                Email address
+            </label>
+            <input type="email" asp-for="EmailAddress" autocomplete="on"
+                   class="form-control" id="txtRegisterUserEmailAddress"
+                   placeholder="Enter your email address">
+
+            <span asp-validation-for="EmailAddress" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <div class="d-flex justify-content-between">
+                <label class="form-label" for="card-password">Password</label>
+                @*<a class="fs--1" href="@string.Format(_appSetting.AppURL + "ForgetPassword")"
+                   title="Forget Password" id="linkForgetPassword">
+                    Forgot Password?
+                </a>*@
+            </div>
+            <input type="password" asp-for="Password" autocomplete="on"
+                   class="form-control" id="txtCreatePassword"
+                   placeholder="Enter your password">
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <div class="d-flex justify-content-between">
+                <label class="form-label" for="card-password">Confirm Password</label>
+                @*<a class="fs--1" href="@string.Format(_appSetting.AppURL + "ForgetPassword")"
+                title="Forget Password" id="linkForgetPassword">
+                Forgot Password?
+                </a>*@
+            </div>
+            <input type="password" asp-for="ConfirmPassword" autocomplete="on"
+                   class="form-control" id="txtConfirmPassword"
+                   placeholder="Enter your password">
+            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="checkPrivacyAndSecurity"
+                   asp-for="PrivacyAndSecurity">
+            <label class="form-label mb-0" for="checkPrivacyAndSecurity">
+                Privacy And Security
+            </label>
+            <span asp-validation-for="PrivacyAndSecurity" id="checkPrivacyAndSecurityVal" class="text-danger fs--1"></span>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="checkTermsOfService"
+                   asp-for="TermsOfService">
+            <label class="form-label mb-0" for="checkTermsOfService">
+                Terms Of Service
+            </label>
+            <span asp-validation-for="TermsOfService" id="checkTermsOfServiceVal" class="text-danger fs--1"></span>
+        </div>
+
+        <div class="mb-3">
+            <button class="btn btn-primary w-100 mt-3" type="submit" id="btnSubmitRegisterUser">
+                Register User
+            </button>
+
+        </div>
+    </div>
+</form>

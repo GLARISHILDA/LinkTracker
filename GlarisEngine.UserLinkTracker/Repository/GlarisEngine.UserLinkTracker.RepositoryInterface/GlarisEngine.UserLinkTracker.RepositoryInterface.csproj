@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<InformationalVersion Condition=" '$(BUILD_BUILDNUMBER)' == '' ">local.build</InformationalVersion>
+		<InformationalVersion Condition=" '$(BUILD_BUILDNUMBER)' != '' ">$(BUILD_BUILDNUMBER)</InformationalVersion>
+		<Authors>GLARIS HILDA T</Authors>
+		<Company>Adhinju</Company>
+		<Product>User Link Tracker</Product>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.1" />
+		<PackageReference Include="Insight.Database" Version="6.3.11" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+    <ProjectReference Include="..\..\Core\GlarisEngine.UserLinkTracker.Domain\GlarisEngine.UserLinkTracker.Domain.csproj" />
+    <ProjectReference Include="..\..\Core\GlarisEngine.UserLinkTracker.Infrastructure\GlarisEngine.UserLinkTracker.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

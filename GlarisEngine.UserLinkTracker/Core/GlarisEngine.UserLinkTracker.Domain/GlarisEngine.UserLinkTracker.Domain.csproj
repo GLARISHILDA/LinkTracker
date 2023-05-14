@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<InformationalVersion Condition=" '$(BUILD_BUILDNUMBER)' == '' ">local.build</InformationalVersion>
+		<InformationalVersion Condition=" '$(BUILD_BUILDNUMBER)' != '' ">$(BUILD_BUILDNUMBER)</InformationalVersion>
+		<Authors>GLARIS HILDA T</Authors>
+		<Company>Adhinju</Company>
+		<Product>User Link Tracker</Product>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.1" />
+	</ItemGroup>
+</Project>
